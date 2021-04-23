@@ -1,0 +1,87 @@
+.blog {
+  background-color: $color-light;
+  padding: 8.4rem 1.6rem;
+
+  &__heading {
+    @include sectionHeading;
+  }
+
+  &__heading::after {
+    @include sectionHeadingAfter;
+  }
+  &__heading-small {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  &__paragraph {
+    line-height: 145%;
+    word-spacing: 0.2rem;
+    padding-bottom: 2rem;
+  }
+
+  #blog-2,
+  #blog-1 {
+    padding: 8.4rem 1.6rem;
+  }
+
+  &__first,
+  &__second {
+    width: 70%;
+    box-shadow: 0.5rem 0.5rem 2.5rem $color-shadow;
+    margin: 0 auto 5%;
+    padding: 2%;
+    text-align: justify;
+  }
+
+  &__list {
+    line-height: 145%;
+    word-spacing: 0.2rem;
+    padding: 0 2rem 2rem;
+  }
+
+  &__picture {
+    width: 100%;
+    margin: 2% auto;
+  }
+
+  &__art-title {
+    margin-bottom: 2rem;
+  }
+
+  &__figcaption {
+    background-color: $color-grey-dark;
+    color: $color-white;
+    font: italic smaller sans-serif;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &__button-ghost {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-grey-dark;
+    padding: 0.3rem;
+    border-bottom: 1px solid $color-grey-dark;
+    margin: 1rem auto 2rem auto;
+    &--light {
+      color: $color-white;
+      border-bottom: $color-white;
+      margin-left: 1rem;
+    }
+  }
+  &__button-ghost:hover {
+    background-color: $color-grey-dark;
+    color: $color-white;
+    border-bottom: $color-white;
+    &--light {
+      background-color: $color-white;
+      color: $color-grey-dark;
+      border-bottom: $color-grey-dark;
+    }
+  }
+}
+
