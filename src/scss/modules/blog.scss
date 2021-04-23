@@ -85,3 +85,19 @@
   }
 }
 
+@include respond(tab-port) {
+  .blog {
+    padding: 3.2rem 2rem;
+    font-size: 1.6rem;
+
+    &__heading::after {
+      margin: 1rem auto 3rem auto;
+    }
+
+    &__first,
+    &__second {
+      width: 85%;
+      padding: 1%;
+    }
+  }
+}
