@@ -30,3 +30,21 @@
     letter-spacing: 0.1rem;
   }
 }
+@include respond(tab-port) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../assets/img/jumbotron700.jpg);
+    height: 60vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+@include respond(phone) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../assets/img/jumbotron350.jpg);
+    height: 50vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
