@@ -1,0 +1,83 @@
+.publications {
+  padding: 8.4rem 2.5rem;
+
+  &__heading {
+    @include sectionHeading;
+  }
+
+  &__heading::after {
+    @include sectionHeadingAfter;
+  }
+
+  &__columns {
+    display: grid;
+    grid-template-columns: 0.75fr 4fr;
+    grid-column-gap: 5rem;
+    max-width: 98.1rem;
+    margin: 0 auto 3rem;
+  }
+
+  &__cover {
+    width: 100%;
+    box-shadow: 0.5rem 0.7rem 2rem $color-shadow;
+    justify-self: end;
+    margin-top: 0.6rem;
+  }
+
+  &__data {
+  }
+
+  &__autors {
+    margin-bottom: 1.6rem;
+  }
+
+  &__title {
+    margin-bottom: 1.6rem;
+  }
+
+  &__informations {
+    margin-bottom: 1.6rem;
+  }
+
+  &__base {
+    padding: 6.4rem 1.6rem;
+    background-color: $color-white;
+    box-shadow: 0.2rem 0.4rem 2rem $color-shadow;
+    margin: 6rem 15% 10rem;
+  }
+
+  &__database {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 4rem;
+    grid-column-gap: 4rem;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.researchgate {
+  width: 26%;
+  margin: 0 37%;
+}
+
+.orcid {
+  width: 60%;
+  margin: 0 20%;
+}
+
+.publons {
+  width: 52%;
+  margin: 0 24%;
+}
+
+.agh-bpp {
+  width: 30%;
+  margin: 0 35%;
+}
+
+.scopus {
+  width: 90%;
+  margin-left: 10%;
+}
+
