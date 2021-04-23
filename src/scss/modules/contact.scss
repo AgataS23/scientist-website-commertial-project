@@ -1,0 +1,34 @@
+.contact {
+  background-color: $color-lighter;
+  padding: 8.4rem 1.6rem;
+
+  &__heading {
+    @include sectionHeading;
+  }
+  &__heading::after {
+    @include sectionHeadingAfter;
+  }
+
+  &__information {
+    display: grid;
+    grid-template-columns: 0.85fr 1fr;
+    grid-column-gap: 2rem;
+  }
+
+  &__name {
+    justify-self: end;
+  }
+  &__name,
+  &__data {
+    line-height: 145%;
+    color: $color-grey-dark;
+  }
+
+  &__data a {
+    text-decoration: none;
+    color: $color-grey-dark;
+  }
+}
+
+
+
