@@ -1,0 +1,32 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/img/jumbotron1000.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: $color-white;
+  margin-bottom: 0;
+  overflow-x: hidden;
+
+  &__main {
+    margin: 0 auto 2rem;
+    font-size: 240%;
+    font-weight: 300;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+  }
+  &__text {
+    font-size: 110%;
+    font-style: italic;
+    margin-bottom: 4rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+  }
+}
