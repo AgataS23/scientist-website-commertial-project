@@ -95,6 +95,40 @@
   padding-top: 8rem;
 }
 
+@include respond(tab-port) {
+  .about {
+    &__research-information {
+      margin: 2rem auto;
+      padding: 2rem;
+      width: 96%;
+    }
+  }
+}
 
+@include respond(phone) {
+  .about {
+    width: 100vw;
+    padding: 3.4rem 1.6rem;
+
+    &__heading::after {
+      margin: 1rem auto 3rem auto;
+    }
+
+    &__columns {
+      grid-template-columns: 1fr;
+      max-width: 76.8rem;
+    }
+
+    &__article {
+      padding: 1.6rem;
+    }
+
+    &__columns-photo {
+      width: 35%;
+      justify-self: center;
+      margin-bottom: 3.6rem;
+    }
+  }
+}
 
 
