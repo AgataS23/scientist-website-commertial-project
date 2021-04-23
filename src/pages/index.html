@@ -4,14 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webpack starter kit</title>
-  <meta name="description" content="Your project description" />
-  <!-- Title -->
-  <meta property="og:title" content="" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
-  <meta property="og:description" content="" />
-  <!-- full url with http(s) ie. https://AgataS23.github.io/my-repo/ -->
-  <meta property="og:url" content="" />
+  <title>AGH - Paweł Stoch</title>
+  <meta name="description" content="AGH - dr hab. inż Paweł Stoch" />
+  <meta property="og:title" content="AGH - Paweł Stoch" />
+  <meta property="og:description"
+    content="Stoch, Paweł, AGH, Kraków, glasses for applications, waste immobilization, glass network simulations" />
+  <meta property="og:url" content="https://AgataS23.github.io/scientist-website-commertial-project/" />
   <!-- full url to the image with http(s) ie. https://AgataS23.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <!-- <meta
       property="og:image"
@@ -25,9 +23,22 @@
 </head>
 
 <body>
-  <div class="hello">
-    <img class="hello__logo" src="../assets/img/logo.svg" alt="name " />
-    <span class="hello__circles"></span>
+  <div class="navigation">
+    <img src="../assets/img/logo.png" alt="Pawel's logo" class="navigation__logo">
+    <button class="navigation__hamburger" id="hamburger">
+      <img src="../assets/icons/bars.svg" alt="hamburger menu icon bars" class="bars">
+      <img src="../assets/icons/close.svg" alt="hamburger menu icon close" class="close hide">
+    </button>
+    <ul class="navigation__list" id="nav-ul">
+      <li class="navigation__item"><a class="navigation__item-link" href="#home">Home</a></li>
+      <li class="navigation__item"><a class="navigation__item-link" href="#about">About me</a></li>
+      <li class="navigation__item"><a class="navigation__item-link" href="#publications">Publications</a></li>
+      <li class="navigation__item"><a class="navigation__item-link" href="#blog">Research blog</a></li>
+      <li class="navigation__item"><a class="navigation__item-link" href="project.html#project">Current project</a>
+      </li>
+      <li class="navigation__item"><a class="navigation__item-link" href="about.html#projects">Projects</a></li>
+      <li class="navigation__item"><a class="navigation__item-link" href="#contact">Contact</a></li>
+    </ul>
   </div>
 </body>
 

@@ -1,7 +1,7 @@
 {
-  "name": "webpack-starterkit",
+  "name": "scientist-website-commertial-project",
   "version": "1.0.1",
-  "description": "Webpack starterkit",
+  "description": "scientist-website-commertial-project",
   "main": "index.js",
   "private": true,
   "scripts": {
