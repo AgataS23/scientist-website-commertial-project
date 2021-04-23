@@ -1,0 +1,65 @@
+.footer {
+  background-color: $color-grey-dark;
+  font-size: 85%;
+  line-height: 145%;
+  color: $color-light-darker;
+  padding: 5% 10%;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+  }
+  &__list-nav {
+    list-style-type: none;
+  }
+
+  &__list-item {
+    padding: 1rem;
+    border-bottom: 1px solid $color-light-darker;
+    width: 14rem;
+  }
+
+  &__list-item:last-of-type {
+    border-bottom: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-light-darker;
+  }
+  &__link:hover {
+    color: $color-white;
+  }
+  &__socials {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+  }
+
+  &__icon {
+    width: 5rem;
+    background: $color-grey-dark;
+    margin: 0;
+  }
+
+  &__copyright {
+    margin-top: 3rem;
+    padding: 4rem 1rem 0;
+    border-top: 1px solid $color-light-darker;
+    text-align: center;
+  }
+}
+.researchgate-icon {
+  width: 4rem;
+}
+.researchgate-icon:hover {
+  background: #00d0af;
+}
+.facebook-icon:hover {
+  background: #1877f2;
+}
+.linkedin-icon:hover {
+  background: #0077b5;
+}
