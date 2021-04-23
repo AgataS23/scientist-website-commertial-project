@@ -29,6 +29,38 @@
     color: $color-grey-dark;
   }
 }
+@include respond(tab-land) {
+  .contact {
+    &__name {
+      justify-self: end;
+    }
+  }
+}
+@include respond(tab-port) {
+  .contact {
+    &__name {
+      justify-self: end;
+    }
+  }
+}
+
+@include respond(phone) {
+  .contact {
+    &__heading::after {
+      margin: 1rem auto 3rem auto;
+    }
+    &__information {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding-left: 1rem;
+    }
+    &__name {
+      justify-self: end;
+    }
+  }
+}
 
 
 
