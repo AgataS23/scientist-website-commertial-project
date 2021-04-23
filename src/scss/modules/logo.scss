@@ -1,0 +1,16 @@
+@keyframes scaling {
+  0% {
+    transform: translateX(1.2rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(1.2rem);
+  }
+}
+.navigation__logo {
+  display: inline-block;
+  animation: scaling 1.5s ease-in-out infinite;
+  transform-origin: left right;
+}
