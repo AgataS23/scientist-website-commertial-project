@@ -1,0 +1,48 @@
+.project {
+  background-color: $color-light;
+  padding: 8.4rem 1.6rem;
+
+  &__heading {
+    @include sectionHeading;
+  }
+
+  &__heading::after {
+    @include sectionHeadingAfter;
+  }
+
+  &__article {
+    width: 70%;
+    box-shadow: 0.5rem 0.5rem 2.5rem $color-shadow;
+    margin: 0 auto 5%;
+    padding: 8.4rem 1.6rem;
+    text-align: justify;
+  }
+
+  &__heading-small {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  &__paragraph {
+    line-height: 145%;
+    word-spacing: 0.2rem;
+    padding-bottom: 2rem;
+  }
+
+  &__list {
+    line-height: 145%;
+    word-spacing: 0.2rem;
+    padding: 0 2rem 2rem;
+  }
+
+  &__list-item {
+    padding-bottom: 1.6rem;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
