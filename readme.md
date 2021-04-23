@@ -1,12 +1,16 @@
-![cover](https://website-address/img/cover.png)
+![cover](https://AgataS23.github.io/cover.png)
 
-# Webpack Starter Kit
+# Agata Stoch - junior frontend developer
 
-Simple toolkit for your static websites development.
+This is my first commertial project. You can find it here: [klik here](http://home.agh.edu.pl/~pstoch/)
 
-## How to use it?
+## TOOLS
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- Webpack starterkit
+- HTML + CSS + JS
+- BEM methodology
+- CSS Grid & Flexbox
+- Saas
 
 ## Available scripts
 
