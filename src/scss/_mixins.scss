@@ -1,0 +1,16 @@
+@mixin sectionHeading {
+  font-weight: 300;
+  color: $color-grey-dark;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-align: center;
+}
+
+@mixin sectionHeadingAfter {
+  display: block;
+  height: 0.3rem;
+  width: 9rem;
+  margin: 1rem auto 6rem auto;
+  background-color: $color-grey-dark;
+  content: " ";
+}

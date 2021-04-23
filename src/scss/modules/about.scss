@@ -1,0 +1,100 @@
+.about {
+  width: 100vw;
+  background-color: $color-light-darker;
+  background-image: linear-gradient(
+      rgba(250, 250, 250, 0.7),
+      rgba(230, 228, 228, 0.7)
+    ),
+    url(../assets/img/logo.png);
+  background-position: left;
+  background-repeat: repeat-x repeat-y;
+  padding: 8.4rem 1.6rem;
+  overflow-x: hidden;
+
+  &__heading {
+    @include sectionHeading;
+  }
+
+  &__heading::after {
+    @include sectionHeadingAfter;
+  }
+
+  &__columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 3rem;
+    max-width: 98.1rem;
+    margin: 0 auto;
+  }
+
+  &__article {
+    padding-left: 1.6rem;
+    line-height: 130%;
+
+    &--paragraph {
+      padding-bottom: 2rem;
+    }
+    &--list {
+      padding: 0 2rem 2rem;
+    }
+  }
+
+  &__columns-photo {
+    width: 75%;
+    border: 2px solid $color-border;
+    box-shadow: 0.5rem 1rem 1.8rem $color-shadow;
+    justify-self: center;
+    margin-top: 0.6rem;
+  }
+
+  &__columns-text {
+  }
+
+  &__research-information {
+    text-align: justify;
+    margin: 2rem auto;
+    padding: 4rem;
+    background-color: $color-white;
+    width: 75%;
+    color: $color-grey-dark;
+    word-spacing: 0.2rem;
+  }
+  &__heading-small {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+
+    &--left {
+      font-weight: 400;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__article-research {
+    padding-bottom: 6rem;
+  }
+  &__article-research-paragraph {
+    line-height: 145%;
+    word-spacing: 0.2rem;
+    padding-bottom: 2rem;
+  }
+  &__article-research--list {
+    padding: 0 2rem 4rem;
+    line-height: 145%;
+    word-spacing: 0.2rem;
+  }
+  &__article-photo {
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+}
+#projects {
+  padding-top: 8rem;
+}
+
+
+
+
