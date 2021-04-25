@@ -1,8 +1,8 @@
-![cover](https://AgataS23.github.io/cover.png)
+![cover](https://AgtaS23.github.io/scientist-website-commertial-project/cover.png)
 
 # Agata Stoch - junior frontend developer
 
-This is my first commertial project. You can find it here: [klik here](http://home.agh.edu.pl/~pstoch/)
+This is my first commertial project. You can find it here: [clik here](http://home.agh.edu.pl/~pstoch/)
 
 ## TOOLS
 
