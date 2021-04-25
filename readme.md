@@ -1,4 +1,4 @@
-![cover](https://AgtaS23.github.io/scientist-website-commertial-project/cover-github-1.png)
+![cover](https://AgtaS23.github.io/scientist-website-commertial-project/cover.png)
 
 # Agata Stoch - junior frontend developer
 
